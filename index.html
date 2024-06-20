@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<style>
+			.content {
+				min-width: 350px;
+				max-width: 60%;
+				margin: auto;
+				text-align: center; 
+				border: 1px solid red;
+			}
+			.items_type {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+				place-items: center;
+				padding: 0px;
+				width: 100%;
+				gap: 10px;
+			}
+			.items_title {
+				color: red;
+				font-size: 2em;
+				margin-top: 20px;
+			}
+			.items_type > div {
+				border: 1px solid gray;
+				width: 100%;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="content">
+			<div class="items_title">アクセサリー </div>
+			<div class="items_type">
+				<div>★1</div>
+				<div>★2</div>
+				<div>★3</div>
+				<div>★4</div>
+				<div>★5</div>
+				<div>★6</div>
+			</div>
+			<div class="items_title">ドレス </div>
+			<div class="items_type">
+				<div>★1</div>
+				<div>★2</div>
+				<div>★3</div>
+				<div>★4</div>
+				<div>★5</div>
+				<div>★6</div>
+				<div>★7</div>
+				<div>★8</div>
+				<div>★9</div>
+			</div>
+		</div>
+	</body>
+</html>
